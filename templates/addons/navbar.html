@@ -1,0 +1,18 @@
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static "css/layout.css" %}" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+    <nav id='navBar'>
+        <a class="navbutton 0" href="/">Home</a>
+        <a class="navbutton 1" href="../users/">Users</a>
+        <a class="navbutton 2" href="../login/">Login</a>
+        <a class="navbutton 3" href="#about">About</a>
+        <a id="nav-dj-logo" target="_blank" href="https://www.djangoproject.com/">
+            <img class="navlogo" height="41x" width="41px" src="{% static "/images/django.png" %}"
+                alt="No image available" />
+        </a>
+    </nav>
+
+
+<script src="{% static "/js/navbar.js" %}"></script>

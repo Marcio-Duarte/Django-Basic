@@ -1,0 +1,12 @@
+#Python Files
+__init__.py
+
+#Config files
+settings.json
+
+#Folders
+__pycache__
+migrations
+
+#Databases
+db.sqlite3

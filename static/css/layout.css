@@ -1,0 +1,48 @@
+body {
+  margin: 0%;
+  background-color: rgb(233, 244, 245);
+}
+
+/********** NavBar **********/
+
+/* Add a black background color to the top navigation */
+
+#navBar {
+  background-color: rgb(62, 171, 221);
+  overflow: hidden;
+  /* list-style-type: none; */
+}
+
+/* Style the links inside the navigation bar */
+
+#navBar .navbutton {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+
+#navBar .navbutton:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+
+#navBar .navbutton.active {
+  background-color: rgb(49, 114, 151);
+  color: white;
+}
+
+/* Logo properties */
+
+#navBar #nav-dj-logo {
+  float: right;
+  padding: 3px 6px 0px 0px;
+  border: 0px;
+  border-radius: 50%;
+}

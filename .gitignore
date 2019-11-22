@@ -3,6 +3,7 @@ __init__.py
 
 #Config files
 settings.json
+.vscode/launch.json
 
 #Folders
 __pycache__
@@ -10,3 +11,4 @@ migrations
 
 #Databases
 db.sqlite3
+
